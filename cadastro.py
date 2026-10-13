@@ -1,17 +1,24 @@
-while True
-    print("=========================")
-    print("sistema de cadastro")
-    print("=========================")
+while True:
+    print ("====================")
+    print (" Sistema de Cadastro")
+    print ("====================")
 
-    print("1 - cadastra")
-    print("2 - fazer login")
-    print("3 - sair")
+    print ("1 - Cadastra")
+    print ("2 - Fazer login")
+    print ("3 - Sair " )
 
-opcao = int(input("Escolha uma opção: "))
-#funcionalidades
+    opcao = int (input ("Escolha uma opção:"))
+#Funcionalidades
     #se o usuario digitar o valor 1, vai ser exibido
     #a açao abaixo
-    # if (opcao == 1) :
-        print ("============================")
-        print ("======tela de cadastro======")
-        print ("============================")
+    if(opcao == 1):
+        print("======================")
+        print("===tela de cadastro===")
+        print("======================")
+    elif(opcao == 2):
+         print("=====================")
+         print("====Tela de login====")
+         print("=====================")
+    else :
+        print("Você esta saindo do cadastro, até mais")
+        break 
