@@ -41,7 +41,10 @@ while True:
     if login_usuario == usuario and login_senha == senha  :
          print("\n login realizado com sucesso!\n ")
          print("bem vindo, nome")
-         
+     #Se não estiver correto entra no caso abaixo
+     else:
+         print ("Usuário ou senha incorretos ")   
+  #se digitar 3, sai da execução  
     elif(opcao == "3"):
          print("Você esta saindo do cadastro, até mais")
          break 
