@@ -19,6 +19,9 @@ while True:
          print("=====================")
          print("====Tela de login====")
          print("=====================")
-    else :
+         #se digitar 3,para a executado")
+    elif(opcao == 3):
         print("Você esta saindo do cadastro, até mais")
         break 
+
+    
